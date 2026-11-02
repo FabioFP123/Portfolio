@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--before copy pasting, add sampling/ as the parent of all the CSS files and image files-->
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/index/flex.css">
+  <link rel="stylesheet" type="text/css" href="css/index/imgviewer.css">
+  <link rel="stylesheet" type="text/css" href="css/nav.css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="Icon" type="image/x-icon" href="sampling/images/general_graphics/favicon/bonnie.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header style="position: static;">
+    <div class="contact">
+      <a>Contact Me</a>
+      <a>Socials</a>
+    </div>
+    <nav>
+      <a style="background-color: rgb(226, 226, 226);" href="index.html" class="skip round-left color-fnaf1">Home</a>
+      <a href="gallery.html" class="skip color-fnaf5">Gallery</a>
+      <a href="about.html" class="skip color-fnaf3">About Me</a>
+    </nav>
+  </header>
+
+  <main>
+    <div>
+        <section>
+        </section>
+        <section data-aos="fade-up" data-aos-delay="50">
+          <div class="s1-flex">
+            <div class="flexbox-1" style="font-size: 3.3rem; flex: 3; width: 100%;">
+              <h1 class="namehead">I AM <i>FABIO PEREZ</i></h1>
+              <h2 class="subtitle">Welcome to my portfolio. Have a read.</h2>
+              <div class="mini-flex" data-aos="fade-up" data-aos-delay="50">
+                <div class="tile">
+                  <img src="images/index/icons/digital_art.png" style="max-width: 100px; margin-left: auto; margin-right: auto; margin-bottom: 20px; margin-top: 10px;">
+                  <h3>Digital Art</h3>
+                  <p>I excel in digital artwork and can easily adapt to most illustration software.</p>
+                </div>
+                <div class="tile" data-aos="fade-up" data-aos-delay="50">
+                  <img src="images/index/icons/after_effects.png" style="max-width: 100px; margin-left: auto; margin-right: auto; margin-bottom: 20px; margin-top: 10px;">
+                  <h3>Adobe Software </h3>
+                  <p>I excel in digital artwork and can easily adapt to most illustration software.</p>
+                </div>
+                <div class="tile" data-aos="fade-up" data-aos-delay="50">
+                  <img src="images/index/icons/programming.png" style="max-width: 100px; margin-left: auto; margin-right: auto; margin-bottom: 20px; margin-top: 10px;">
+                  <h3>Programming</h3>
+                  <p>I excel in digital artwork and can easily adapt to most illustration software.</p>
+                </div>
+              </div>
+            </div>
+            <div class="flexbox-2" style="flex: 3;"> 
+              <img src="images//index/fabio.jpg" alt="fnaflogo" id="myself">
+            </div>
+
+          </div>
+        </section>
+        <section class="section-2">
+          <h2 data-aos="fade-up" data-aos-delay="10" class="header">SOME OF MY WORK</h2>
+            <div id="carousel" data-aos="fade-up" data-aos-delay="50">
+              <div class="img-container"><img src="images/index/gallery/miles.png" alt="fazbearfrights"></div> 
+              <div class="img-container"><img src="images/index/gallery/paths.png" alt="fazbearfrights"></div> 
+              <div class="img-container"><img src="images/index/gallery/hardest_pic.png" alt="fazbearfrights"></div> 
+              <a href="gallery.html"><button class="visit_button">VIEW FULL GALLERY</button></a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+        </div>
+        <div class="footer-info">
+          <p>&copy; 2025 Fabio Figueroa-Perez.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="javascript/carousel.js"></script>
+    
+    <script>
+      AOS.init();
+
+    </script>
+
+</body>
+
+</html>
