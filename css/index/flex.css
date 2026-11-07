@@ -5,6 +5,7 @@
 
 .s1-flex {
     display: flex;
+    flex-direction: column;
     min-height: 800px;
     margin-top: 25px;
     margin-bottom: 100px;
