@@ -5,67 +5,75 @@
 
 .s1-flex {
     display: flex;
-    flex-direction: column;
-    min-height: 800px;
+    flex-direction: row;
+    overflow: hidden;
+
+    max-height: 360px;
     margin-top: 25px;
     margin-bottom: 100px;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-left:70px;
+
     box-shadow: 0px 3px 15px 5px rgba(0, 0, 0, 0.2);
-}
-
-
-.flexbox-1 {
     background-color: rgb(244, 244, 244);
+    color: rgb(244, 244, 244);
 }
 
-.flexbox-1 h2 {
-    position:relative;
+.image {
+    max-height: 100%;
+    max-width: 600px;
+}
+
+.subtitle {
+    position: absolute;
+    top: 240px;
+
     text-align: left;
-    top: 2%;
-    font-size: 1.5rem;
-    margin-left: 45px;
-    margin-right: 45px;
-    margin-top: px;
+    font-size: 1rem;
+
     font-family: "Red Hat Display", sans-serif;
-    font-weight: 200;
-    background-color: white;
-    padding: 5px;
+    font-weight: 50;
+    background-color: rgb(19, 19, 19);
+
+    padding-block: 5px;
     padding-left: 50px;
+    padding-right: 10px;
 }
 
 .namehead {
+    position: absolute;
+    top: 80px;
+    left:0px;
+
     font-family: "Bodoni Moda", serif;
     font-weight: 700;
-    position: relative;
-    background-color: white;
-    color: rgb(41, 41, 41);
-    padding-left: 100px;
-    padding-right: 50px;
-    margin-top: 100px;
-    right: 4%;
+    font-size:larger;
+    background-color: rgb(19, 19, 19);
+    
+    
+    padding-left: 150px;
+    padding-right: 40px;
+    padding-block: 20px;
 }
 
 .mini-flex {
     position: relative;
     margin-top: 50px;
     padding-bottom: 100px;
-    background-color: rgba(7, 12, 58, 0.027);
+    background-color: rgb(19, 19, 19);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .tile {
-    background-color: white;
+    background-color: rgb(16, 16, 16);
     padding: 15px;
-    color: rgb(36, 36, 36);
+    color: rgb(255, 255, 255);
     text-align: center;
     width: 250px;
     height: 315px;
     margin-left: 25px;
     margin-right: 25px;
-    margin-top: 50px;
 
     font-family: "Red Hat Display", sans-serif;
     box-shadow: 0px 3px 10px 5px rgba(0, 0, 0, 0.2);
@@ -88,16 +96,6 @@
     margin-top: 20px;
 }
 
-.flexbox-2 {
-    min-height: 100%;
-    max-width: 600px;
-    display: flex;
-    justify-content: center;
-}
-
-.flexbox-2 img {
-    object-fit: cover;
-}
 
 .flexbox-3 {
     height: 100%;
